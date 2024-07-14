@@ -26,23 +26,6 @@ namespace ClipAngel
         [STAThread]
         static void Main(string[] args)
         {
-
-            ///// added for dpi fix ->
-            if (Environment.OSVersion.Version.Major >= 6)
-            {
-                SetProcessDPIAware();
-
-            }
-
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            ////// <- end of adding 
-
-
-
-
-
-
             bool elevatedMode = args.Contains("/elevated");
             if (elevatedMode)
             {
@@ -143,14 +126,6 @@ namespace ClipAngel
         static extern bool SetForegroundWindow(IntPtr hWnd);
         [DllImport("User32.dll")]
         static extern IntPtr GetForegroundWindow();
-
-        /// added for dll fix ->
-        [DllImport("user32.dll")]
-        private static extern bool SetProcessDPIAware();
-        /// -< end of adding
-
-
-
 
         static bool IsSingleInstance(string MutexName)
         {
