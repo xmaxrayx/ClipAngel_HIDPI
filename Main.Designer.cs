@@ -1237,34 +1237,34 @@ namespace ClipAngel
             // 
             // stripLabelPosition
             // 
-            resources.ApplyResources(this.stripLabelPosition, "stripLabelPosition");
             this.stripLabelPosition.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.stripLabelPosition.Name = "stripLabelPosition";
+            resources.ApplyResources(this.stripLabelPosition, "stripLabelPosition");
             this.stripLabelPosition.Spring = true;
             // 
             // StripLabelVisualSize
             // 
-            resources.ApplyResources(this.StripLabelVisualSize, "StripLabelVisualSize");
             this.StripLabelVisualSize.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelVisualSize.Name = "StripLabelVisualSize";
+            resources.ApplyResources(this.StripLabelVisualSize, "StripLabelVisualSize");
             // 
             // StripLabelSize
             // 
-            resources.ApplyResources(this.StripLabelSize, "StripLabelSize");
             this.StripLabelSize.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelSize.Name = "StripLabelSize";
+            resources.ApplyResources(this.StripLabelSize, "StripLabelSize");
             // 
             // StripLabelType
             // 
-            resources.ApplyResources(this.StripLabelType, "StripLabelType");
             this.StripLabelType.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelType.Name = "StripLabelType";
+            resources.ApplyResources(this.StripLabelType, "StripLabelType");
             // 
             // StripLabelCreated
             // 
-            resources.ApplyResources(this.StripLabelCreated, "StripLabelCreated");
             this.StripLabelCreated.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelCreated.Name = "StripLabelCreated";
+            resources.ApplyResources(this.StripLabelCreated, "StripLabelCreated");
             // 
             // textBoxApplication
             // 
