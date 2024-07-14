@@ -581,8 +581,8 @@ namespace ClipAngel
             // 
             // toolStripButtonAutoSelectMatch
             // 
-            this.toolStripButtonAutoSelectMatch.Checked = global::ClipAngel.Properties.Settings.Default.AutoSelectMatch;
-            this.toolStripButtonAutoSelectMatch.CheckOnClick = global::ClipAngel.Properties.Settings.Default.AutoSelectMatch;
+            this.toolStripButtonAutoSelectMatch.Checked = true;
+            this.toolStripButtonAutoSelectMatch.CheckOnClick = true;
             this.toolStripButtonAutoSelectMatch.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toolStripButtonAutoSelectMatch.Name = "toolStripButtonAutoSelectMatch";
             resources.ApplyResources(this.toolStripButtonAutoSelectMatch, "toolStripButtonAutoSelectMatch");
@@ -590,8 +590,8 @@ namespace ClipAngel
             // 
             // autoselectMatchedClipMenuItem
             // 
-            this.autoselectMatchedClipMenuItem.Checked = global::ClipAngel.Properties.Settings.Default.AutoSelectMatchedClip;
-            this.autoselectMatchedClipMenuItem.CheckOnClick = global::ClipAngel.Properties.Settings.Default.AutoSelectMatchedClip;
+            this.autoselectMatchedClipMenuItem.Checked = true;
+            this.autoselectMatchedClipMenuItem.CheckOnClick = true;
             this.autoselectMatchedClipMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.autoselectMatchedClipMenuItem.Name = "autoselectMatchedClipMenuItem";
             resources.ApplyResources(this.autoselectMatchedClipMenuItem, "autoselectMatchedClipMenuItem");
@@ -599,8 +599,7 @@ namespace ClipAngel
             // 
             // toolStripMenuItemSearchCaseSensitive
             // 
-            this.toolStripMenuItemSearchCaseSensitive.Checked = global::ClipAngel.Properties.Settings.Default.SearchCaseSensitive;
-            this.toolStripMenuItemSearchCaseSensitive.CheckOnClick = global::ClipAngel.Properties.Settings.Default.SearchCaseSensitive;
+            this.toolStripMenuItemSearchCaseSensitive.Checked = true;
             this.toolStripMenuItemSearchCaseSensitive.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toolStripMenuItemSearchCaseSensitive.Name = "toolStripMenuItemSearchCaseSensitive";
             resources.ApplyResources(this.toolStripMenuItemSearchCaseSensitive, "toolStripMenuItemSearchCaseSensitive");
@@ -608,8 +607,8 @@ namespace ClipAngel
             // 
             // toolStripMenuItemSearchWordsIndependently
             // 
-            this.toolStripMenuItemSearchWordsIndependently.Checked = global::ClipAngel.Properties.Settings.Default.SearchWordsIndependently;
-            this.toolStripMenuItemSearchWordsIndependently.CheckOnClick = global::ClipAngel.Properties.Settings.Default.SearchWordsIndependently;
+            this.toolStripMenuItemSearchWordsIndependently.Checked = true;
+            this.toolStripMenuItemSearchWordsIndependently.CheckOnClick = true;
             this.toolStripMenuItemSearchWordsIndependently.CheckState = System.Windows.Forms.CheckState.Checked;
             resources.ApplyResources(this.toolStripMenuItemSearchWordsIndependently, "toolStripMenuItemSearchWordsIndependently");
             this.toolStripMenuItemSearchWordsIndependently.Name = "toolStripMenuItemSearchWordsIndependently";
@@ -617,8 +616,8 @@ namespace ClipAngel
             // 
             // toolStripMenuItemSearchWildcards
             // 
-            this.toolStripMenuItemSearchWildcards.Checked = global::ClipAngel.Properties.Settings.Default.SearchWildcards;
-            this.toolStripMenuItemSearchWildcards.CheckOnClick = global::ClipAngel.Properties.Settings.Default.SearchWildcards;
+            this.toolStripMenuItemSearchWildcards.Checked = true;
+            this.toolStripMenuItemSearchWildcards.CheckOnClick = true;
             this.toolStripMenuItemSearchWildcards.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toolStripMenuItemSearchWildcards.Name = "toolStripMenuItemSearchWildcards";
             resources.ApplyResources(this.toolStripMenuItemSearchWildcards, "toolStripMenuItemSearchWildcards");
@@ -626,8 +625,8 @@ namespace ClipAngel
             // 
             // ignoreBigTextsToolStripMenuItem
             // 
-            this.ignoreBigTextsToolStripMenuItem.Checked = global::ClipAngel.Properties.Settings.Default.SearchIgnoreBigTexts;
-            this.ignoreBigTextsToolStripMenuItem.CheckOnClick = global::ClipAngel.Properties.Settings.Default.SearchIgnoreBigTexts;
+            this.ignoreBigTextsToolStripMenuItem.Checked = true;
+            this.ignoreBigTextsToolStripMenuItem.CheckOnClick = true;
             this.ignoreBigTextsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ignoreBigTextsToolStripMenuItem.Name = "ignoreBigTextsToolStripMenuItem";
             resources.ApplyResources(this.ignoreBigTextsToolStripMenuItem, "ignoreBigTextsToolStripMenuItem");
@@ -635,8 +634,8 @@ namespace ClipAngel
             // 
             // filterListBySearchStringMenuItem
             // 
-            this.filterListBySearchStringMenuItem.Checked = global::ClipAngel.Properties.Settings.Default.FilterListBySearchString;
-            this.filterListBySearchStringMenuItem.CheckOnClick = global::ClipAngel.Properties.Settings.Default.FilterListBySearchString;
+            this.filterListBySearchStringMenuItem.Checked = true;
+            this.filterListBySearchStringMenuItem.CheckOnClick = true;
             this.filterListBySearchStringMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.filterListBySearchStringMenuItem.Name = "filterListBySearchStringMenuItem";
             resources.ApplyResources(this.filterListBySearchStringMenuItem, "filterListBySearchStringMenuItem");
@@ -1046,7 +1045,9 @@ namespace ClipAngel
             // 
             this.richTextBox.AcceptsTab = true;
             resources.ApplyResources(this.richTextBox, "richTextBox");
+            this.richTextBox.AutoWordSelection = true;
             this.richTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox.ContextMenuStrip = this.contextMenuStripRtf;
             this.richTextBox.DetectUrls = false;
             this.richTextBox.HideSelection = false;
@@ -1054,6 +1055,7 @@ namespace ClipAngel
             this.richTextBox.ReadOnly = true;
             this.richTextBox.SelectionChanged += new System.EventHandler(this.richTextBox_SelectionChanged);
             this.richTextBox.Click += new System.EventHandler(this.RichText_Click);
+            this.richTextBox.TextChanged += new System.EventHandler(this.richTextBox_TextChanged);
             this.richTextBox.Enter += new System.EventHandler(this.richTextBox_Enter);
             this.richTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox_KeyDown);
             // 
@@ -1237,34 +1239,34 @@ namespace ClipAngel
             // 
             // stripLabelPosition
             // 
-            resources.ApplyResources(this.stripLabelPosition, "stripLabelPosition");
             this.stripLabelPosition.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.stripLabelPosition.Name = "stripLabelPosition";
+            resources.ApplyResources(this.stripLabelPosition, "stripLabelPosition");
             this.stripLabelPosition.Spring = true;
             // 
             // StripLabelVisualSize
             // 
-            resources.ApplyResources(this.StripLabelVisualSize, "StripLabelVisualSize");
             this.StripLabelVisualSize.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelVisualSize.Name = "StripLabelVisualSize";
+            resources.ApplyResources(this.StripLabelVisualSize, "StripLabelVisualSize");
             // 
             // StripLabelSize
             // 
-            resources.ApplyResources(this.StripLabelSize, "StripLabelSize");
             this.StripLabelSize.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelSize.Name = "StripLabelSize";
+            resources.ApplyResources(this.StripLabelSize, "StripLabelSize");
             // 
             // StripLabelType
             // 
-            resources.ApplyResources(this.StripLabelType, "StripLabelType");
             this.StripLabelType.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelType.Name = "StripLabelType";
+            resources.ApplyResources(this.StripLabelType, "StripLabelType");
             // 
             // StripLabelCreated
             // 
-            resources.ApplyResources(this.StripLabelCreated, "StripLabelCreated");
             this.StripLabelCreated.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right;
             this.StripLabelCreated.Name = "StripLabelCreated";
+            resources.ApplyResources(this.StripLabelCreated, "StripLabelCreated");
             // 
             // textBoxApplication
             // 
@@ -2076,7 +2078,6 @@ namespace ClipAngel
             // 
             // toolStripButtonMonospacedFont
             // 
-            this.toolStripButtonMonospacedFont.Checked = global::ClipAngel.Properties.Settings.Default.MonospacedFont;
             this.toolStripButtonMonospacedFont.CheckOnClick = true;
             this.toolStripButtonMonospacedFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButtonMonospacedFont.Image = global::ClipAngel.Properties.Resources.FixedWidthFont;
@@ -2264,8 +2265,8 @@ namespace ClipAngel
             // Main
             // 
             this.AllowDrop = true;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.toolStripTop);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.MainMenu);
