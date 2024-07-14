@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 33</value>
+    <value>0, 36</value>
   </data>
   <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -235,7 +235,7 @@
     <value>Find previous match in clip text (SHIFT+F3)</value>
   </data>
   <data name="toolStripBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 610</value>
+    <value>220, 607</value>
   </data>
   <data name="toolStripBottom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 3, 0</value>
@@ -283,7 +283,7 @@
     <value>img</value>
   </data>
   <data name="MarkFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 612</value>
+    <value>4, 609</value>
   </data>
   <data name="MarkFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -332,7 +332,7 @@ Submenu "List" has commands for quick selection</value>
     <value>img</value>
   </data>
   <data name="TypeFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 612</value>
+    <value>126, 609</value>
   </data>
   <data name="TypeFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -369,7 +369,7 @@ Submenu "List" has commands for quick selection</value>
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="comboBoxSearchString.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 612</value>
+    <value>238, 609</value>
   </data>
   <data name="comboBoxSearchString.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -768,7 +768,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>62</value>
   </data>
   <data name="dataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 609</value>
+    <value>369, 606</value>
   </data>
   <data name="dataGridView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -873,16 +873,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Tahoma, 9pt</value>
   </data>
   <data name="urlTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 532</value>
-  </data>
-  <data name="urlTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>3, 532</value>
   </data>
   <data name="urlTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="urlTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>799, 40</value>
+    <value>797, 34</value>
   </data>
   <data name="urlTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -967,13 +964,10 @@ Changes in temp file are not synchronized with clip!</value>
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="richTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="richTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>3, 3</value>
   </data>
   <data name="richTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>799, 152</value>
+    <value>797, 145</value>
   </data>
   <data name="richTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1067,16 +1061,16 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Fill</value>
   </data>
   <data name="htmlTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 152</value>
+    <value>4, 156</value>
   </data>
   <data name="htmlTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="htmlTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>30, 31</value>
   </data>
   <data name="htmlTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>799, 152</value>
+    <value>795, 141</value>
   </data>
   <data name="htmlTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1124,13 +1118,10 @@ Changes in temp file are not synchronized with clip!</value>
     <value>NoControl</value>
   </data>
   <data name="ImageControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 304</value>
-  </data>
-  <data name="ImageControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>3, 305</value>
   </data>
   <data name="ImageControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>799, 228</value>
+    <value>797, 221</value>
   </data>
   <data name="ImageControl.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1154,7 +1145,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>4</value>
   </data>
   <data name="tableLayoutPanelData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>799, 572</value>
+    <value>803, 569</value>
   </data>
   <data name="tableLayoutPanelData.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1195,8 +1186,11 @@ Changes in temp file are not synchronized with clip!</value>
   <data name="stripLabelFiltered.ToolTipText" xml:space="preserve">
     <value>Number of filtered clips</value>
   </data>
+  <data name="stripLabelPosition.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="stripLabelPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 27</value>
+    <value>397, 27</value>
   </data>
   <data name="stripLabelPosition.Text" xml:space="preserve">
     <value>Position</value>
@@ -1207,8 +1201,11 @@ Changes in temp file are not synchronized with clip!</value>
   <data name="stripLabelPosition.ToolTipText" xml:space="preserve">
     <value>Text postion &lt;offset&gt;(&lt;line&gt;:&lt;column&gt;):&lt;length&gt;</value>
   </data>
+  <data name="StripLabelVisualSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="StripLabelVisualSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 27</value>
+    <value>70, 27</value>
   </data>
   <data name="StripLabelVisualSize.Text" xml:space="preserve">
     <value>VisualSize</value>
@@ -1219,8 +1216,11 @@ Changes in temp file are not synchronized with clip!</value>
   <data name="StripLabelVisualSize.ToolTipText" xml:space="preserve">
     <value>Visual size: number of chars or pixels</value>
   </data>
+  <data name="StripLabelSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="StripLabelSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 27</value>
+    <value>70, 27</value>
   </data>
   <data name="StripLabelSize.Text" xml:space="preserve">
     <value>Size</value>
@@ -1231,8 +1231,11 @@ Changes in temp file are not synchronized with clip!</value>
   <data name="StripLabelSize.ToolTipText" xml:space="preserve">
     <value>Total size of all data types of clip in bytes</value>
   </data>
+  <data name="StripLabelType.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="StripLabelType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 27</value>
+    <value>45, 27</value>
   </data>
   <data name="StripLabelType.Text" xml:space="preserve">
     <value>Type</value>
@@ -1243,8 +1246,11 @@ Changes in temp file are not synchronized with clip!</value>
   <data name="StripLabelType.ToolTipText" xml:space="preserve">
     <value>Type</value>
   </data>
+  <data name="StripLabelCreated.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="StripLabelCreated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 27</value>
+    <value>130, 27</value>
   </data>
   <data name="StripLabelCreated.Text" xml:space="preserve">
     <value>Created</value>
@@ -1256,13 +1262,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Created time</value>
   </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 616</value>
+    <value>0, 613</value>
   </data>
   <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 21, 0</value>
   </data>
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>805, 34</value>
+    <value>809, 34</value>
   </data>
   <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1310,7 +1316,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textBoxApplication.Location" type="System.Drawing.Point, System.Drawing">
-    <value>675, 5</value>
+    <value>679, 5</value>
   </data>
   <data name="textBoxApplication.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
@@ -1367,7 +1373,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>4, 5, 4, 5</value>
   </data>
   <data name="textBoxWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>631, 26</value>
+    <value>635, 26</value>
   </data>
   <data name="textBoxWindow.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1403,7 +1409,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>1</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1185, 650</value>
+    <value>1185, 647</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
     <value>370</value>
@@ -1514,7 +1520,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Exit the program</value>
   </data>
   <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 29</value>
+    <value>94, 30</value>
   </data>
   <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
     <value>Window</value>
@@ -1775,7 +1781,7 @@ Sorting is kept until clip capture.</value>
     <value>Select top (last) clip</value>
   </data>
   <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 29</value>
+    <value>54, 30</value>
   </data>
   <data name="listToolStripMenuItem.Text" xml:space="preserve">
     <value>List</value>
@@ -2099,13 +2105,13 @@ added to ignore list, which can be edited in Settings window.</value>
 </value>
   </data>
   <data name="clipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 29</value>
+    <value>58, 30</value>
   </data>
   <data name="clipToolStripMenuItem.Text" xml:space="preserve">
     <value>Clip</value>
   </data>
   <data name="settingsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 29</value>
+    <value>92, 30</value>
   </data>
   <data name="settingsToolStripMenuItem1.Text" xml:space="preserve">
     <value>Settings</value>
@@ -2147,7 +2153,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>About</value>
   </data>
   <data name="fToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 29</value>
+    <value>65, 30</value>
   </data>
   <data name="fToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
@@ -2156,7 +2162,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>0, 0</value>
   </data>
   <data name="MainMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1185, 33</value>
+    <value>1185, 36</value>
   </data>
   <data name="MainMenu.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2844,7 +2850,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonTextFormatting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonTextFormatting.Text" xml:space="preserve">
     <value>Native formatting</value>
@@ -2853,7 +2859,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonWordWrap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonWordWrap.Text" xml:space="preserve">
     <value>Word wrap</value>
@@ -2862,7 +2868,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonMonospacedFont.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonMonospacedFont.Text" xml:space="preserve">
     <value>Monospaced font</value>
@@ -2871,7 +2877,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="moveCopiedClipToTopToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="moveCopiedClipToTopToolStripButton.Text" xml:space="preserve">
     <value>Move to top after use</value>
@@ -2892,7 +2898,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonClearFilterAndSelectTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonClearFilterAndSelectTop.ToolTipText" xml:space="preserve">
     <value>Clear filters and seleсt top (F9)</value>
@@ -2901,7 +2907,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonMarkFavorite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonMarkFavorite.ToolTipText" xml:space="preserve">
     <value>Is clip favorite</value>
@@ -2910,7 +2916,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripMenuItemEditClipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripMenuItemEditClipText.Text" xml:space="preserve">
     <value>Edit clip text</value>
@@ -2919,7 +2925,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Edit clip text as plain text (F4)</value>
   </data>
   <data name="toolStripMenuItemOpenFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 33</value>
+    <value>40, 38</value>
   </data>
   <data name="toolStripMenuItemOpenFile.Text" xml:space="preserve">
     <value>Open clip file</value>
@@ -2948,7 +2954,7 @@ Changes in temp file are not synchronized with clip!
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonSecondaryColumns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonSecondaryColumns.Text" xml:space="preserve">
     <value>Secondary columns</value>
@@ -2957,7 +2963,7 @@ Changes in temp file are not synchronized with clip!
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonTopMostWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 28</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonTopMostWindow.Text" xml:space="preserve">
     <value>Window always on top</value>
@@ -2966,7 +2972,7 @@ Changes in temp file are not synchronized with clip!
     <value>Window always on top mode</value>
   </data>
   <data name="toolStripUpdateToSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 33</value>
+    <value>6, 38</value>
   </data>
   <data name="buttonUpdate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3005,7 +3011,7 @@ Changes in temp file are not synchronized with clip!
     <value>0, 0, 3, 0</value>
   </data>
   <data name="toolStripTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>371, 33</value>
+    <value>371, 38</value>
   </data>
   <data name="toolStripTop.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
