@@ -235,7 +235,7 @@
     <value>Find previous match in clip text (SHIFT+F3)</value>
   </data>
   <data name="toolStripBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 607</value>
+    <value>219, 607</value>
   </data>
   <data name="toolStripBottom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 3, 0</value>
@@ -244,7 +244,7 @@
     <value>Yes</value>
   </data>
   <data name="toolStripBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 38</value>
+    <value>151, 38</value>
   </data>
   <data name="toolStripBottom.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -289,7 +289,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="MarkFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 33</value>
+    <value>109, 33</value>
   </data>
   <data name="MarkFilter.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -332,13 +332,13 @@ Submenu "List" has commands for quick selection</value>
     <value>img</value>
   </data>
   <data name="TypeFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 609</value>
+    <value>121, 609</value>
   </data>
   <data name="TypeFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
   <data name="TypeFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 33</value>
+    <value>117, 33</value>
   </data>
   <data name="TypeFilter.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
