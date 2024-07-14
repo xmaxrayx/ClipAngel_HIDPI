@@ -123,7 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
+    <value>0, 36</value>
+  </data>
+  <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <metadata name="toolStripBottom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 57</value>
@@ -142,25 +145,25 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonClearFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonClearFilter.ToolTipText" xml:space="preserve">
     <value>Clear filters (F7)</value>
   </data>
   <data name="toolStripButtonAutoSelectMatch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="toolStripButtonAutoSelectMatch.Text" xml:space="preserve">
     <value>Autoselect first match </value>
   </data>
   <data name="autoselectMatchedClipMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="autoselectMatchedClipMenuItem.Text" xml:space="preserve">
     <value>Autoselect matched clip</value>
   </data>
   <data name="toolStripMenuItemSearchCaseSensitive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="toolStripMenuItemSearchCaseSensitive.Text" xml:space="preserve">
     <value>Case sensitive</value>
@@ -169,31 +172,31 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStripMenuItemSearchWordsIndependently.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="toolStripMenuItemSearchWordsIndependently.Text" xml:space="preserve">
     <value>Independent words</value>
   </data>
   <data name="toolStripMenuItemSearchWildcards.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="toolStripMenuItemSearchWildcards.Text" xml:space="preserve">
     <value>"%" as any char sequence</value>
   </data>
   <data name="ignoreBigTextsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="ignoreBigTextsToolStripMenuItem.Text" xml:space="preserve">
     <value>Ignore big texts</value>
   </data>
   <data name="filterListBySearchStringMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="filterListBySearchStringMenuItem.Text" xml:space="preserve">
     <value>Filter list by search string</value>
   </data>
   <data name="searchAllFieldsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+    <value>315, 34</value>
   </data>
   <data name="searchAllFieldsMenuItem.Text" xml:space="preserve">
     <value>Search all fields</value>
@@ -205,7 +208,7 @@
     <value>No</value>
   </data>
   <data name="toolStripSearchOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 22</value>
+    <value>42, 33</value>
   </data>
   <data name="toolStripSearchOptions.Text" xml:space="preserve">
     <value>toolStripDropDownButton1</value>
@@ -217,7 +220,7 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonFindNext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonFindNext.ToolTipText" xml:space="preserve">
     <value>Find next match in clip text (F3)</value>
@@ -226,19 +229,22 @@
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonFindPrevious.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonFindPrevious.ToolTipText" xml:space="preserve">
     <value>Find previous match in clip text (SHIFT+F3)</value>
   </data>
   <data name="toolStripBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 394</value>
+    <value>220, 607</value>
+  </data>
+  <data name="toolStripBottom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
   </data>
   <data name="toolStripBottom.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="toolStripBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+    <value>150, 38</value>
   </data>
   <data name="toolStripBottom.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -277,10 +283,13 @@
     <value>img</value>
   </data>
   <data name="MarkFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 395</value>
+    <value>4, 609</value>
+  </data>
+  <data name="MarkFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="MarkFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 23</value>
+    <value>115, 33</value>
   </data>
   <data name="MarkFilter.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -323,10 +332,13 @@ Submenu "List" has commands for quick selection</value>
     <value>img</value>
   </data>
   <data name="TypeFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 395</value>
+    <value>126, 609</value>
+  </data>
+  <data name="TypeFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="TypeFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 23</value>
+    <value>106, 33</value>
   </data>
   <data name="TypeFilter.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -357,10 +369,13 @@ Submenu "List" has commands for quick selection</value>
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="comboBoxSearchString.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 395</value>
+    <value>238, 609</value>
+  </data>
+  <data name="comboBoxSearchString.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="comboBoxSearchString.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
+    <value>0, 33</value>
   </data>
   <data name="comboBoxSearchString.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -388,7 +403,10 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>NoControl</value>
   </data>
   <data name="monthCalendar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 5</value>
+  </data>
+  <data name="monthCalendar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
   </data>
   <data name="monthCalendar1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -441,14 +459,23 @@ Edit search string right from list. Navigate in list right from search field.</v
   <data name="ColumnTitle.HeaderText" xml:space="preserve">
     <value>Title</value>
   </data>
+  <data name="ColumnTitle.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <metadata name="ImageSample.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ImageSample.HeaderText" xml:space="preserve">
     <value>ImageSample</value>
   </data>
+  <data name="ImageSample.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="ImageSample.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="ImageSample.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <metadata name="VisualWeight.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -465,14 +492,23 @@ Edit search string right from list. Navigate in list right from search field.</v
   <data name="imageSampleDataGridViewImageColumn.HeaderText" xml:space="preserve">
     <value>ImageSample</value>
   </data>
+  <data name="imageSampleDataGridViewImageColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="imageSampleDataGridViewImageColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="imageSampleDataGridViewImageColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <metadata name="ColumnCreated.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ColumnCreated.HeaderText" xml:space="preserve">
     <value>Created</value>
+  </data>
+  <data name="ColumnCreated.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="ColumnCreated.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -483,8 +519,14 @@ Edit search string right from list. Navigate in list right from search field.</v
   <data name="charsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>Chars</value>
   </data>
+  <data name="charsDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="charsDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="charsDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <metadata name="SizeDataGridViewTextBoxColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -492,44 +534,80 @@ Edit search string right from list. Navigate in list right from search field.</v
   <data name="SizeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>Size</value>
   </data>
+  <data name="SizeDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="SizeDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="SizeDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="usedDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
     <value>Used</value>
   </data>
+  <data name="usedDataGridViewCheckBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="usedDataGridViewCheckBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="usedDataGridViewCheckBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="typeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>Type</value>
   </data>
+  <data name="typeDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="typeDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="typeDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="titleDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>Title</value>
   </data>
+  <data name="titleDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="titleDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="titleDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="idDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>Id</value>
   </data>
+  <data name="idDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="idDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="idDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="favoriteDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
     <value>Favorite</value>
   </data>
+  <data name="favoriteDataGridViewCheckBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="favoriteDataGridViewCheckBoxColumn.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="favoriteDataGridViewCheckBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <metadata name="contextMenuStripDataGrid.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>-2, 26</value>
   </metadata>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>Paste (Enter)</value>
@@ -538,7 +616,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Paste in active window selected clips. Also performed by double click.</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem3.Text" xml:space="preserve">
     <value>Paste text (Ctrl+Enter)</value>
@@ -547,7 +625,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Paste in active window selected plain text of clip or image clip file name or aggregated plain text of selected clips.</value>
   </data>
   <data name="toolStripMenuItem24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem24.Text" xml:space="preserve">
     <value>Paste line (Ctrl+Shift+Enter)</value>
@@ -556,7 +634,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Paste in active window selected plain text stripped of line breaks and excess unprintable characters.</value>
   </data>
   <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem18.Text" xml:space="preserve">
     <value>Paste file</value>
@@ -568,13 +646,13 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Ctrl+P</value>
   </data>
   <data name="toolStripMenuItem25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem25.Text" xml:space="preserve">
     <value>Paste special...</value>
   </data>
   <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem7.Text" xml:space="preserve">
     <value>Simulate fast char input</value>
@@ -583,7 +661,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Simulate in active window fast char input of selected text of clip or aggregated text of selected clips.</value>
   </data>
   <data name="sendClipMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="sendClipMenuItem.Text" xml:space="preserve">
     <value>Send clip to channel</value>
@@ -595,7 +673,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Ctrl+C</value>
   </data>
   <data name="copyToClipboardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="copyToClipboardToolStripMenuItem.Text" xml:space="preserve">
     <value>Copy to clipboard</value>
@@ -607,7 +685,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>F2</value>
   </data>
   <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem12.Text" xml:space="preserve">
     <value>Edit title</value>
@@ -619,7 +697,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Alt+Q</value>
   </data>
   <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem14.Text" xml:space="preserve">
     <value>Mark as favorite</value>
@@ -631,7 +709,7 @@ Edit search string right from list. Navigate in list right from search field.</v
     <value>Ctrl+F4</value>
   </data>
   <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem11.Text" xml:space="preserve">
     <value>Open file</value>
@@ -642,7 +720,7 @@ Open clip file in default application.
 Changes in temp file are not synchronized with clip!</value>
   </data>
   <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="toolStripMenuItem10.Text" xml:space="preserve">
     <value>Text compare</value>
@@ -657,7 +735,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Del</value>
   </data>
   <data name="deleteToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>307, 32</value>
   </data>
   <data name="deleteToolStripMenuItem1.Text" xml:space="preserve">
     <value>Delete</value>
@@ -666,7 +744,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Delete selected clips from list. Real deletion is performed on database close.</value>
   </data>
   <data name="contextMenuStripDataGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 312</value>
+    <value>308, 420</value>
   </data>
   <data name="&gt;&gt;contextMenuStripDataGrid.Name" xml:space="preserve">
     <value>contextMenuStripDataGrid</value>
@@ -681,10 +759,16 @@ Changes in temp file are not synchronized with clip!</value>
     <value>235, 2</value>
   </metadata>
   <data name="dataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 0</value>
+    <value>2, 0</value>
+  </data>
+  <data name="dataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="dataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
   </data>
   <data name="dataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 393</value>
+    <value>369, 606</value>
   </data>
   <data name="dataGridView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -723,10 +807,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>NoControl</value>
   </data>
   <data name="pictureBoxSource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 3</value>
+    <value>2, 5</value>
+  </data>
+  <data name="pictureBoxSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="pictureBoxSource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 20</value>
+    <value>24, 31</value>
   </data>
   <data name="pictureBoxSource.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
@@ -762,19 +849,19 @@ Changes in temp file are not synchronized with clip!</value>
     <value>1177, 0</value>
   </metadata>
   <data name="contextMenuUrlOpenLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>248, 32</value>
   </data>
   <data name="contextMenuUrlOpenLink.Text" xml:space="preserve">
     <value>Open link (ALT+click)</value>
   </data>
   <data name="toolStripUrlCopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>248, 32</value>
   </data>
   <data name="toolStripUrlCopyAll.Text" xml:space="preserve">
     <value>Copy all text</value>
   </data>
   <data name="contextMenuUrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 48</value>
+    <value>249, 68</value>
   </data>
   <data name="&gt;&gt;contextMenuUrl.Name" xml:space="preserve">
     <value>contextMenuUrl</value>
@@ -786,16 +873,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Tahoma, 9pt</value>
   </data>
   <data name="urlTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 345</value>
-  </data>
-  <data name="urlTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 532</value>
   </data>
   <data name="urlTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="urlTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 22</value>
+    <value>797, 34</value>
   </data>
   <data name="urlTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -825,7 +909,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>600, 2</value>
   </metadata>
   <data name="rtfMenuItemOpenLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
+    <value>284, 32</value>
   </data>
   <data name="rtfMenuItemOpenLink.Text" xml:space="preserve">
     <value>Open link (ALT+click)</value>
@@ -834,13 +918,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Ctrl+C</value>
   </data>
   <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
+    <value>284, 32</value>
   </data>
   <data name="copyToolStripMenuItem.Text" xml:space="preserve">
     <value>Copy</value>
   </data>
   <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
+    <value>284, 32</value>
   </data>
   <data name="toolStripMenuItem6.Text" xml:space="preserve">
     <value>Paste text (CTRL+ENTER)</value>
@@ -850,10 +934,10 @@ Changes in temp file are not synchronized with clip!</value>
 </value>
   </data>
   <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="addSelectedTextInFilterToolStripMenuRtf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
+    <value>284, 32</value>
   </data>
   <data name="addSelectedTextInFilterToolStripMenuRtf.Text" xml:space="preserve">
     <value>Add text in filter</value>
@@ -862,7 +946,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Add selected text in text filter</value>
   </data>
   <data name="setSelectedTextInFilterToolStripMenuRtf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
+    <value>284, 32</value>
   </data>
   <data name="setSelectedTextInFilterToolStripMenuRtf.Text" xml:space="preserve">
     <value>Set text in filter</value>
@@ -871,7 +955,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Set selected text in text filter</value>
   </data>
   <data name="contextMenuStripRtf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 120</value>
+    <value>285, 170</value>
   </data>
   <data name="&gt;&gt;contextMenuStripRtf.Name" xml:space="preserve">
     <value>contextMenuStripRtf</value>
@@ -880,13 +964,10 @@ Changes in temp file are not synchronized with clip!</value>
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="richTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="richTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 3</value>
   </data>
   <data name="richTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 94</value>
+    <value>797, 145</value>
   </data>
   <data name="richTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -910,25 +991,25 @@ Changes in temp file are not synchronized with clip!</value>
     <value>451, 2</value>
   </metadata>
   <data name="htmlMenuItemOpenLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="htmlMenuItemOpenLink.Text" xml:space="preserve">
     <value>Open link (ALT+click)</value>
   </data>
   <data name="htmlMenuItemCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="htmlMenuItemCopy.Text" xml:space="preserve">
     <value>Copy</value>
   </data>
   <data name="htmlMenuItemCopyLinkAdress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="htmlMenuItemCopyLinkAdress.Text" xml:space="preserve">
     <value>Copy link adress</value>
   </data>
   <data name="toolStripMenuItem15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="toolStripMenuItem15.Text" xml:space="preserve">
     <value>Paste text (CTRL+ ENTER)</value>
@@ -941,16 +1022,16 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Ctrl+A</value>
   </data>
   <data name="htmlMenuItemSelectAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="htmlMenuItemSelectAll.Text" xml:space="preserve">
     <value>Select all</value>
   </data>
   <data name="toolStripMenuItem21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 6</value>
+    <value>286, 6</value>
   </data>
   <data name="addSelectedTextToFilterToolStripHtml.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="addSelectedTextToFilterToolStripHtml.Text" xml:space="preserve">
     <value>Add text in filter</value>
@@ -959,7 +1040,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Add selected text in text filter</value>
   </data>
   <data name="setSelectedTextInFilterToolStripHtml.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>289, 32</value>
   </data>
   <data name="setSelectedTextInFilterToolStripHtml.Text" xml:space="preserve">
     <value>Set text in filter</value>
@@ -968,7 +1049,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Set selected text in text filter</value>
   </data>
   <data name="contextMenuStripHtml.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 164</value>
+    <value>290, 234</value>
   </data>
   <data name="&gt;&gt;contextMenuStripHtml.Name" xml:space="preserve">
     <value>contextMenuStripHtml</value>
@@ -980,13 +1061,16 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Fill</value>
   </data>
   <data name="htmlTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 101</value>
+    <value>4, 156</value>
+  </data>
+  <data name="htmlTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="htmlTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
+    <value>30, 31</value>
   </data>
   <data name="htmlTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 92</value>
+    <value>795, 141</value>
   </data>
   <data name="htmlTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1010,19 +1094,19 @@ Changes in temp file are not synchronized with clip!</value>
     <value>274, 57</value>
   </metadata>
   <data name="originalSizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
+    <value>198, 32</value>
   </data>
   <data name="originalSizeToolStripMenuItem.Text" xml:space="preserve">
     <value>Original size</value>
   </data>
   <data name="fitFromInsideToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
+    <value>198, 32</value>
   </data>
   <data name="fitFromInsideToolStripMenuItem.Text" xml:space="preserve">
     <value>Fit from inside</value>
   </data>
   <data name="contextMenuPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 48</value>
+    <value>199, 68</value>
   </data>
   <data name="&gt;&gt;contextMenuPictureBox.Name" xml:space="preserve">
     <value>contextMenuPictureBox</value>
@@ -1034,13 +1118,10 @@ Changes in temp file are not synchronized with clip!</value>
     <value>NoControl</value>
   </data>
   <data name="ImageControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 198</value>
-  </data>
-  <data name="ImageControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 305</value>
   </data>
   <data name="ImageControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 143</value>
+    <value>797, 221</value>
   </data>
   <data name="ImageControl.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1058,16 +1139,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>3</value>
   </data>
   <data name="tableLayoutPanelData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="tableLayoutPanelData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 42</value>
   </data>
   <data name="tableLayoutPanelData.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="tableLayoutPanelData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>412, 369</value>
+    <value>803, 569</value>
   </data>
   <data name="tableLayoutPanelData.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1085,7 +1163,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>1</value>
   </data>
   <data name="tableLayoutPanelData.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="urlTextBox" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="richTextBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="htmlTextBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ImageControl" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,28,57143,Percent,28,57143,Percent,42,85714,Absolute,25,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="urlTextBox" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="richTextBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="htmlTextBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ImageControl" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,28.57143,Percent,28.57143,Percent,42.85714,Absolute,38,Absolute,31" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>5, -1</value>
@@ -1100,7 +1178,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>None</value>
   </data>
   <data name="stripLabelFiltered.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 17</value>
+    <value>74, 27</value>
   </data>
   <data name="stripLabelFiltered.Text" xml:space="preserve">
     <value>Filtered</value>
@@ -1112,7 +1190,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>False</value>
   </data>
   <data name="stripLabelPosition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 17</value>
+    <value>397, 27</value>
   </data>
   <data name="stripLabelPosition.Text" xml:space="preserve">
     <value>Position</value>
@@ -1127,7 +1205,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>False</value>
   </data>
   <data name="StripLabelVisualSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 17</value>
+    <value>70, 27</value>
   </data>
   <data name="StripLabelVisualSize.Text" xml:space="preserve">
     <value>VisualSize</value>
@@ -1142,7 +1220,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>False</value>
   </data>
   <data name="StripLabelSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 17</value>
+    <value>70, 27</value>
   </data>
   <data name="StripLabelSize.Text" xml:space="preserve">
     <value>Size</value>
@@ -1157,7 +1235,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>False</value>
   </data>
   <data name="StripLabelType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
+    <value>45, 27</value>
   </data>
   <data name="StripLabelType.Text" xml:space="preserve">
     <value>Type</value>
@@ -1172,7 +1250,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>False</value>
   </data>
   <data name="StripLabelCreated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 17</value>
+    <value>130, 27</value>
   </data>
   <data name="StripLabelCreated.Text" xml:space="preserve">
     <value>Created</value>
@@ -1184,10 +1262,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Created time</value>
   </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 398</value>
+    <value>0, 613</value>
+  </data>
+  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 21, 0</value>
   </data>
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>416, 22</value>
+    <value>809, 34</value>
   </data>
   <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1214,19 +1295,19 @@ Changes in temp file are not synchronized with clip!</value>
     <value>751, 2</value>
   </metadata>
   <data name="copyFullFilenameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>227, 32</value>
   </data>
   <data name="copyFullFilenameToolStripMenuItem.Text" xml:space="preserve">
     <value>Copy full filename</value>
   </data>
   <data name="toolStripApplicationCopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>227, 32</value>
   </data>
   <data name="toolStripApplicationCopyAll.Text" xml:space="preserve">
     <value>Copy all text</value>
   </data>
   <data name="contextMenuStripApplication.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 48</value>
+    <value>228, 68</value>
   </data>
   <data name="&gt;&gt;contextMenuStripApplication.Name" xml:space="preserve">
     <value>contextMenuStripApplication</value>
@@ -1235,10 +1316,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textBoxApplication.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 3</value>
+    <value>679, 5</value>
+  </data>
+  <data name="textBoxApplication.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="textBoxApplication.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 20</value>
+    <value>122, 26</value>
   </data>
   <data name="textBoxApplication.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1268,13 +1352,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>1232, 29</value>
   </metadata>
   <data name="toolStripWindowTitleCopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+    <value>182, 32</value>
   </data>
   <data name="toolStripWindowTitleCopyAll.Text" xml:space="preserve">
     <value>Copy all text</value>
   </data>
   <data name="contextMenuWindowTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 26</value>
+    <value>183, 36</value>
   </data>
   <data name="&gt;&gt;contextMenuWindowTitle.Name" xml:space="preserve">
     <value>contextMenuWindowTitle</value>
@@ -1283,10 +1367,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textBoxWindow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 3</value>
+    <value>33, 5</value>
+  </data>
+  <data name="textBoxWindow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="textBoxWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 20</value>
+    <value>635, 26</value>
   </data>
   <data name="textBoxWindow.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1322,10 +1409,13 @@ Changes in temp file are not synchronized with clip!</value>
     <value>1</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 420</value>
+    <value>1185, 647</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
     <value>370</value>
+  </data>
+  <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1342,6 +1432,12 @@ Changes in temp file are not synchronized with clip!</value>
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="dataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
   <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>946, 0</value>
   </metadata>
@@ -1349,7 +1445,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>F10</value>
   </data>
   <data name="toolStripMenuItemSwitchFocus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="toolStripMenuItemSwitchFocus.Text" xml:space="preserve">
     <value>Switch focus list/text</value>
@@ -1358,7 +1454,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Switch focus between list and clip text. If focus is in other place, list will be activated.</value>
   </data>
   <data name="menuItemSetFocusClipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="menuItemSetFocusClipText.Text" xml:space="preserve">
     <value>Set focus to clip text (TAB)</value>
@@ -1367,7 +1463,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Ctrl+T</value>
   </data>
   <data name="windowAlwaysOnTopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="windowAlwaysOnTopToolStripMenuItem.Text" xml:space="preserve">
     <value>Always on top</value>
@@ -1376,7 +1472,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Window always on top mode</value>
   </data>
   <data name="showInTaskbarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="showInTaskbarToolStripMenuItem.Text" xml:space="preserve">
     <value>Show in taskbar</value>
@@ -1388,7 +1484,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
 </value>
   </data>
   <data name="toolStripMenuItemMonitoringClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="toolStripMenuItemMonitoringClipboard.Text" xml:space="preserve">
     <value>Monitoring clipboard</value>
@@ -1400,13 +1496,13 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>None</value>
   </data>
   <data name="сдуфкClipboardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="сдуфкClipboardToolStripMenuItem.Text" xml:space="preserve">
     <value>Clear clipboard</value>
   </data>
   <data name="connectRecipientToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="connectRecipientToolStripMenuItem.Text" xml:space="preserve">
     <value>Connect clip channel</value>
@@ -1415,7 +1511,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Set up clip channel</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 22</value>
+    <value>320, 34</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
@@ -1424,31 +1520,31 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Exit the program</value>
   </data>
   <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 20</value>
+    <value>94, 30</value>
   </data>
   <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
     <value>Window</value>
   </data>
   <data name="toolStripMenuItemSecondaryColumns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="toolStripMenuItemSecondaryColumns.Text" xml:space="preserve">
     <value>Secondary columns</value>
   </data>
   <data name="moveCopiedClipToTopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="moveCopiedClipToTopToolStripMenuItem.Text" xml:space="preserve">
     <value>Move to top after use</value>
   </data>
   <data name="toolStripMenuItem22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 6</value>
+    <value>379, 6</value>
   </data>
   <data name="moveTopToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+Alt+Up</value>
   </data>
   <data name="moveTopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="moveTopToolStripMenuItem.Text" xml:space="preserve">
     <value>Move to top</value>
@@ -1460,7 +1556,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Ctrl+Up</value>
   </data>
   <data name="moveUpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="moveUpToolStripMenuItem.Text" xml:space="preserve">
     <value>Move up</value>
@@ -1472,7 +1568,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Ctrl+Down</value>
   </data>
   <data name="moveDownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="moveDownToolStripMenuItem.Text" xml:space="preserve">
     <value>Move down</value>
@@ -1481,7 +1577,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Move selected clips one step down</value>
   </data>
   <data name="filterByDateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="filterByDateToolStripMenuItem.Text" xml:space="preserve">
     <value>Filter by date</value>
@@ -1490,13 +1586,13 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
     <value>Set filter by clip creation date</value>
   </data>
   <data name="sortByDefaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>280, 34</value>
   </data>
   <data name="sortByDefaultToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort by default</value>
   </data>
   <data name="sortByVisualSizeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>280, 34</value>
   </data>
   <data name="sortByVisualSizeToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort by visual size</value>
@@ -1506,7 +1602,7 @@ When ON and "Fast window open" OFF, window will be shown in taskbar if visible.
 Sorting is kept until clip capture.</value>
   </data>
   <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>280, 34</value>
   </data>
   <data name="toolStripMenuItem20.Text" xml:space="preserve">
     <value>Sort by byte size</value>
@@ -1516,7 +1612,7 @@ Sorting is kept until clip capture.</value>
 Sorting is kept until clip capture.</value>
   </data>
   <data name="sortByToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>280, 34</value>
   </data>
   <data name="sortByToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort by creation date</value>
@@ -1526,7 +1622,7 @@ Sorting is kept until clip capture.</value>
 Sorting is kept until clip capture.</value>
   </data>
   <data name="sortingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="sortingToolStripMenuItem.Text" xml:space="preserve">
     <value>Sort</value>
@@ -1535,7 +1631,7 @@ Sorting is kept until clip capture.</value>
     <value>Ctrl+Alt+K</value>
   </data>
   <data name="deleteAllNonFavoriteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="deleteAllNonFavoriteToolStripMenuItem.Text" xml:space="preserve">
     <value>Delete all non favorite</value>
@@ -1544,13 +1640,13 @@ Sorting is kept until clip capture.</value>
     <value>Delete all non favorite clips from list. Real deletion is performed on database close.</value>
   </data>
   <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 6</value>
+    <value>379, 6</value>
   </data>
   <data name="showAllMarksToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+1</value>
   </data>
   <data name="showAllMarksToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showAllMarksToolStripMenuItem.Text" xml:space="preserve">
     <value>Show all marks</value>
@@ -1559,7 +1655,7 @@ Sorting is kept until clip capture.</value>
     <value>Ctrl+2</value>
   </data>
   <data name="showOnlyFavoriteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showOnlyFavoriteToolStripMenuItem.Text" xml:space="preserve">
     <value>Show only favorite</value>
@@ -1568,19 +1664,19 @@ Sorting is kept until clip capture.</value>
     <value>Ctrl+3</value>
   </data>
   <data name="showOnlyUsedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showOnlyUsedToolStripMenuItem.Text" xml:space="preserve">
     <value>Show only used</value>
   </data>
   <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 6</value>
+    <value>379, 6</value>
   </data>
   <data name="showAllTypesToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+1</value>
   </data>
   <data name="showAllTypesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showAllTypesToolStripMenuItem.Text" xml:space="preserve">
     <value>Show all types</value>
@@ -1589,7 +1685,7 @@ Sorting is kept until clip capture.</value>
     <value>Alt+2</value>
   </data>
   <data name="showOnlyImagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showOnlyImagesToolStripMenuItem.Text" xml:space="preserve">
     <value>Show only images</value>
@@ -1598,7 +1694,7 @@ Sorting is kept until clip capture.</value>
     <value>Alt+3</value>
   </data>
   <data name="showOnlyFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showOnlyFilesToolStripMenuItem.Text" xml:space="preserve">
     <value>Show only files</value>
@@ -1607,19 +1703,19 @@ Sorting is kept until clip capture.</value>
     <value>Alt+4</value>
   </data>
   <data name="showOnlyTextsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="showOnlyTextsToolStripMenuItem.Text" xml:space="preserve">
     <value>Show only texts</value>
   </data>
   <data name="toolStripMenuItem17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 6</value>
+    <value>379, 6</value>
   </data>
   <data name="toolStripMenuItemClearFilters.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F7</value>
   </data>
   <data name="toolStripMenuItemClearFilters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="toolStripMenuItemClearFilters.Text" xml:space="preserve">
     <value>Clear filters</value>
@@ -1628,7 +1724,7 @@ Sorting is kept until clip capture.</value>
     <value>F8</value>
   </data>
   <data name="returnToPrevousSelectedClipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="returnToPrevousSelectedClipToolStripMenuItem.Text" xml:space="preserve">
     <value>Clear filters and select prev.</value>
@@ -1640,7 +1736,7 @@ Sorting is kept until clip capture.</value>
     <value>F9</value>
   </data>
   <data name="toolStripMenuItemClearFilterAndSelectTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="toolStripMenuItemClearFilterAndSelectTop.Text" xml:space="preserve">
     <value>Clear filters and select top</value>
@@ -1652,7 +1748,7 @@ Sorting is kept until clip capture.</value>
     <value>Alt+Down</value>
   </data>
   <data name="NextMatchListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="NextMatchListMenuItem.Text" xml:space="preserve">
     <value>Find next</value>
@@ -1664,7 +1760,7 @@ Sorting is kept until clip capture.</value>
     <value>Alt+Up</value>
   </data>
   <data name="PreviousMatchListMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="PreviousMatchListMenuItem.Text" xml:space="preserve">
     <value>Find previous</value>
@@ -1673,10 +1769,10 @@ Sorting is kept until clip capture.</value>
     <value>Find previous match in list</value>
   </data>
   <data name="toolStripMenuItem19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 6</value>
+    <value>379, 6</value>
   </data>
   <data name="gotoTopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
+    <value>382, 34</value>
   </data>
   <data name="gotoTopToolStripMenuItem.Text" xml:space="preserve">
     <value>Select top                 Ctrl+Home</value>
@@ -1685,13 +1781,13 @@ Sorting is kept until clip capture.</value>
     <value>Select top (last) clip</value>
   </data>
   <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>54, 30</value>
   </data>
   <data name="listToolStripMenuItem.Text" xml:space="preserve">
     <value>List</value>
   </data>
   <data name="pasteENTERToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="pasteENTERToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste (Enter)</value>
@@ -1700,7 +1796,7 @@ Sorting is kept until clip capture.</value>
     <value>Paste in active window selected clips. Also performed by double click.</value>
   </data>
   <data name="pasteTextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="pasteTextToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste text (Ctrl+Enter)</value>
@@ -1709,7 +1805,7 @@ Sorting is kept until clip capture.</value>
     <value>Paste in active window selected plain text of clip or image clip file name or aggregated plain text of selected clips.</value>
   </data>
   <data name="pasteLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="pasteLineToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste line (Ctrl+Shift+Enter)</value>
@@ -1718,7 +1814,7 @@ Sorting is kept until clip capture.</value>
     <value>Paste in active window selected plain text stripped of line breaks and excess unprintable characters.</value>
   </data>
   <data name="pasteFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="pasteFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste file</value>
@@ -1730,13 +1826,13 @@ Sorting is kept until clip capture.</value>
     <value>Ctrl+P</value>
   </data>
   <data name="pasteSpecialToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="pasteSpecialToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste special...</value>
   </data>
   <data name="toolStripMenuItemPasteCharsFast.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="toolStripMenuItemPasteCharsFast.Text" xml:space="preserve">
     <value>Simulate fast char input</value>
@@ -1745,7 +1841,7 @@ Sorting is kept until clip capture.</value>
     <value>Simulate in active window fast char input of selected text of clip or aggregated text of selected clips.</value>
   </data>
   <data name="toolStripMenuItemPasteCharsSlow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
+    <value>329, 34</value>
   </data>
   <data name="toolStripMenuItemPasteCharsSlow.Text" xml:space="preserve">
     <value>Simulate slow char input</value>
@@ -1755,7 +1851,7 @@ Sorting is kept until clip capture.</value>
 Not working for sending to elevated window</value>
   </data>
   <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste</value>
@@ -1764,7 +1860,7 @@ Not working for sending to elevated window</value>
     <value>Ctrl+D</value>
   </data>
   <data name="pasteIntoSearchFieldMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="pasteIntoSearchFieldMenuItem.Text" xml:space="preserve">
     <value>Search text in list</value>
@@ -1773,7 +1869,7 @@ Not working for sending to elevated window</value>
     <value>Search in clip list first 50 symbols of selected text</value>
   </data>
   <data name="sendClipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="sendClipToolStripMenuItem.Text" xml:space="preserve">
     <value>Send clip to channel</value>
@@ -1785,7 +1881,7 @@ Not working for sending to elevated window</value>
     <value>None</value>
   </data>
   <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="toolStripMenuItem8.Text" xml:space="preserve">
     <value>Delete                              Del</value>
@@ -1797,7 +1893,7 @@ Not working for sending to elevated window</value>
     <value>F2</value>
   </data>
   <data name="changeClipTitleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="changeClipTitleToolStripMenuItem.Text" xml:space="preserve">
     <value>Edit title</value>
@@ -1809,7 +1905,7 @@ Not working for sending to elevated window</value>
     <value>F3</value>
   </data>
   <data name="NextMatchTextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="NextMatchTextMenuItem.Text" xml:space="preserve">
     <value>Find next</value>
@@ -1821,7 +1917,7 @@ Not working for sending to elevated window</value>
     <value>Shift+F3</value>
   </data>
   <data name="PreviousMatchTextMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="PreviousMatchTextMenuItem.Text" xml:space="preserve">
     <value>Find previous</value>
@@ -1833,7 +1929,7 @@ Not working for sending to elevated window</value>
     <value>Ctrl+N</value>
   </data>
   <data name="textFormattingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="textFormattingToolStripMenuItem.Text" xml:space="preserve">
     <value>Native formatting</value>
@@ -1842,13 +1938,13 @@ Not working for sending to elevated window</value>
     <value>Ctrl+W</value>
   </data>
   <data name="wordWrapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="wordWrapToolStripMenuItem.Text" xml:space="preserve">
     <value>Word wrap</value>
   </data>
   <data name="monospacedFontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="monospacedFontToolStripMenuItem.Text" xml:space="preserve">
     <value>Monospaced font</value>
@@ -1857,7 +1953,7 @@ Not working for sending to elevated window</value>
     <value>Alt+Q</value>
   </data>
   <data name="setFavouriteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="setFavouriteToolStripMenuItem.Text" xml:space="preserve">
     <value>Mark as favorite</value>
@@ -1869,7 +1965,7 @@ Not working for sending to elevated window</value>
     <value>Alt+W</value>
   </data>
   <data name="resetFavouriteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="resetFavouriteToolStripMenuItem.Text" xml:space="preserve">
     <value>Unmark as favorite</value>
@@ -1881,7 +1977,7 @@ Not working for sending to elevated window</value>
     <value>F4</value>
   </data>
   <data name="editClipTextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="editClipTextToolStripMenuItem.Text" xml:space="preserve">
     <value>Edit text</value>
@@ -1893,7 +1989,7 @@ Not working for sending to elevated window</value>
     <value>Ctrl+F4</value>
   </data>
   <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="toolStripMenuItem16.Text" xml:space="preserve">
     <value>Open file</value>
@@ -1904,7 +2000,7 @@ Open clip file in default application.
 Changes in temp file are not synchronized with clip!</value>
   </data>
   <data name="openWithToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="openWithToolStripMenuItem.Text" xml:space="preserve">
     <value>Open file with...</value>
@@ -1921,7 +2017,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Ctrl+S</value>
   </data>
   <data name="saveAsFileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="saveAsFileMenuItem.Text" xml:space="preserve">
     <value>Save as file...</value>
@@ -1933,7 +2029,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Ctrl+Alt+J</value>
   </data>
   <data name="mergeTextOfClipsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="mergeTextOfClipsToolStripMenuItem.Text" xml:space="preserve">
     <value>Join text of clips</value>
@@ -1942,7 +2038,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Join text of selected clips into new clip and select it</value>
   </data>
   <data name="textCompareToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="textCompareToolStripMenuItem.Text" xml:space="preserve">
     <value>Text compare</value>
@@ -1952,7 +2048,7 @@ Changes in temp file are not synchronized with clip!</value>
 </value>
   </data>
   <data name="translateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="translateToolStripMenuItem.Text" xml:space="preserve">
     <value>Translate text</value>
@@ -1961,7 +2057,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Translate clip text or its selected part</value>
   </data>
   <data name="uploadImageToWebToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="uploadImageToWebToolStripMenuItem.Text" xml:space="preserve">
     <value>Upload image to web</value>
@@ -1971,7 +2067,7 @@ Changes in temp file are not synchronized with clip!</value>
 Url will be saved in current clip and will be copied to clipboard.</value>
   </data>
   <data name="ignoreApplicationInCaptureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="ignoreApplicationInCaptureToolStripMenuItem.Text" xml:space="preserve">
     <value>Ignore application</value>
@@ -1981,7 +2077,7 @@ Url will be saved in current clip and will be copied to clipboard.</value>
 added to ignore list, which can be edited in Settings window.</value>
   </data>
   <data name="exportMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="exportMenuItem.Text" xml:space="preserve">
     <value>Export clips</value>
@@ -1990,7 +2086,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Export selected clips to file</value>
   </data>
   <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="importToolStripMenuItem.Text" xml:space="preserve">
     <value>Import clips</value>
@@ -1999,7 +2095,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Import clips from file</value>
   </data>
   <data name="decodeTextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
+    <value>340, 34</value>
   </data>
   <data name="decodeTextToolStripMenuItem.Text" xml:space="preserve">
     <value>Decode URL</value>
@@ -2009,19 +2105,19 @@ added to ignore list, which can be edited in Settings window.</value>
 </value>
   </data>
   <data name="clipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
+    <value>58, 30</value>
   </data>
   <data name="clipToolStripMenuItem.Text" xml:space="preserve">
     <value>Clip</value>
   </data>
   <data name="settingsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>92, 30</value>
   </data>
   <data name="settingsToolStripMenuItem1.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
   <data name="checkUpdateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>273, 34</value>
   </data>
   <data name="checkUpdateToolStripMenuItem.Text" xml:space="preserve">
     <value>Check update</value>
@@ -2030,19 +2126,19 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Check update is called every start and then every day. This command lets to call it now.</value>
   </data>
   <data name="historyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>273, 34</value>
   </data>
   <data name="historyToolStripMenuItem.Text" xml:space="preserve">
     <value>History of changes</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>273, 34</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
   </data>
   <data name="supportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>273, 34</value>
   </data>
   <data name="supportToolStripMenuItem.Text" xml:space="preserve">
     <value>Send bug or feature</value>
@@ -2051,13 +2147,13 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Send bug report or request feature</value>
   </data>
   <data name="aboutToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 22</value>
+    <value>273, 34</value>
   </data>
   <data name="aboutToolStripMenuItem1.Text" xml:space="preserve">
     <value>About</value>
   </data>
   <data name="fToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>65, 30</value>
   </data>
   <data name="fToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
@@ -2066,7 +2162,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>0, 0</value>
   </data>
   <data name="MainMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 24</value>
+    <value>1185, 36</value>
   </data>
   <data name="MainMenu.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2087,7 +2183,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>10</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 22</value>
+    <value>141, 34</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Exit</value>
@@ -2099,13 +2195,13 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>File</value>
   </data>
   <data name="sendPasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>311, 34</value>
   </data>
   <data name="sendPasteToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste original (ENTER)</value>
   </data>
   <data name="pasteAsTextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>311, 34</value>
   </data>
   <data name="pasteAsTextToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste  text (CTRL+ENTER)</value>
@@ -2114,7 +2210,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Del</value>
   </data>
   <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>311, 34</value>
   </data>
   <data name="toolStripMenuItem4.Text" xml:space="preserve">
     <value>Delete</value>
@@ -2144,25 +2240,25 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>183, 28</value>
   </metadata>
   <data name="openWindowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="openWindowToolStripMenuItem.Text" xml:space="preserve">
     <value>Open window</value>
   </data>
   <data name="openLastClipsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="openLastClipsToolStripMenuItem.Text" xml:space="preserve">
     <value>Open last clips</value>
   </data>
   <data name="openFavoritesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="openFavoritesToolStripMenuItem.Text" xml:space="preserve">
     <value>Open favorite clips</value>
   </data>
   <data name="toolStripMenuItemCompareLastClips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="toolStripMenuItemCompareLastClips.Text" xml:space="preserve">
     <value>Compare last clips</value>
@@ -2171,7 +2267,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Compare text of last clips</value>
   </data>
   <data name="trayMenuItemMonitoringClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="trayMenuItemMonitoringClipboard.Text" xml:space="preserve">
     <value>Monitoring clipboard</value>
@@ -2180,19 +2276,19 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Capture changes in clipboard</value>
   </data>
   <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="toolStripMenuItem9.Text" xml:space="preserve">
     <value>Clear clipboard</value>
   </data>
   <data name="exitToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+    <value>261, 32</value>
   </data>
   <data name="exitToolStripMenuItem1.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="contextMenuStripNotifyIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 158</value>
+    <value>262, 228</value>
   </data>
   <data name="&gt;&gt;contextMenuStripNotifyIcon.Name" xml:space="preserve">
     <value>contextMenuStripNotifyIcon</value>
@@ -2754,7 +2850,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonTextFormatting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonTextFormatting.Text" xml:space="preserve">
     <value>Native formatting</value>
@@ -2763,7 +2859,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonWordWrap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonWordWrap.Text" xml:space="preserve">
     <value>Word wrap</value>
@@ -2772,7 +2868,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonMonospacedFont.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonMonospacedFont.Text" xml:space="preserve">
     <value>Monospaced font</value>
@@ -2781,7 +2877,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="moveCopiedClipToTopToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="moveCopiedClipToTopToolStripButton.Text" xml:space="preserve">
     <value>Move to top after use</value>
@@ -2790,7 +2886,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonReturnToPrevous.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 29</value>
   </data>
   <data name="toolStripButtonReturnToPrevous.ToolTipText" xml:space="preserve">
     <value>Clear filters and select clip which was selected before filter apply with change of selected clip</value>
@@ -2802,7 +2898,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonClearFilterAndSelectTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonClearFilterAndSelectTop.ToolTipText" xml:space="preserve">
     <value>Clear filters and seleсt top (F9)</value>
@@ -2811,7 +2907,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonMarkFavorite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonMarkFavorite.ToolTipText" xml:space="preserve">
     <value>Is clip favorite</value>
@@ -2820,7 +2916,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripMenuItemEditClipText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripMenuItemEditClipText.Text" xml:space="preserve">
     <value>Edit clip text</value>
@@ -2829,7 +2925,7 @@ added to ignore list, which can be edited in Settings window.</value>
     <value>Edit clip text as plain text (F4)</value>
   </data>
   <data name="toolStripMenuItemOpenFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 25</value>
+    <value>40, 38</value>
   </data>
   <data name="toolStripMenuItemOpenFile.Text" xml:space="preserve">
     <value>Open clip file</value>
@@ -2843,7 +2939,7 @@ Changes in temp file are not synchronized with clip!</value>
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonOpenWith.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 29</value>
   </data>
   <data name="toolStripButtonOpenWith.ToolTipText" xml:space="preserve">
     <value>Save data to temp file for text or image clip.
@@ -2858,7 +2954,7 @@ Changes in temp file are not synchronized with clip!
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonSecondaryColumns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonSecondaryColumns.Text" xml:space="preserve">
     <value>Secondary columns</value>
@@ -2867,7 +2963,7 @@ Changes in temp file are not synchronized with clip!
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonTopMostWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+    <value>34, 33</value>
   </data>
   <data name="toolStripButtonTopMostWindow.Text" xml:space="preserve">
     <value>Window always on top</value>
@@ -2876,12 +2972,12 @@ Changes in temp file are not synchronized with clip!
     <value>Window always on top mode</value>
   </data>
   <data name="toolStripUpdateToSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
+    <value>6, 38</value>
   </data>
   <data name="buttonUpdate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
         YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
         0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
         bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
@@ -2897,7 +2993,7 @@ Changes in temp file are not synchronized with clip!
     <value>Magenta</value>
   </data>
   <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 22</value>
+    <value>96, 29</value>
   </data>
   <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Update to</value>
@@ -2909,10 +3005,13 @@ Changes in temp file are not synchronized with clip!
     <value>False</value>
   </data>
   <data name="toolStripTop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>372, 0</value>
+    <value>558, 0</value>
+  </data>
+  <data name="toolStripTop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
   </data>
   <data name="toolStripTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 25</value>
+    <value>371, 38</value>
   </data>
   <data name="toolStripTop.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2942,10 +3041,10 @@ Changes in temp file are not synchronized with clip!
     <value>89</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>790, 444</value>
+    <value>1185, 683</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3484,6 +3583,9 @@ Changes in temp file are not synchronized with clip!
         wAAAAf/////AAAAB/////8AAAAH/////4AAAA//////gAAAD/////+AAAAP/////8AAAB//////4AAAP
         //////gAAA///////AAAH//////+AAA///////+AAP///////+AD/////////////////////////w==
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>Manual</value>
@@ -4721,22 +4823,52 @@ Changes in temp file are not synchronized with clip!
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
     <value>AppImage</value>
   </data>
+  <data name="dataGridViewImageColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="dataGridViewImageColumn2.Width" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="dataGridViewRichTextBoxColumn1.HeaderText" xml:space="preserve">
     <value>ColumnTitle</value>
   </data>
+  <data name="dataGridViewRichTextBoxColumn1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <data name="dataGridViewImageColumn3.HeaderText" xml:space="preserve">
     <value>TypeImg</value>
+  </data>
+  <data name="dataGridViewImageColumn3.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dataGridViewImageColumn3.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="dataGridViewImageColumn4.HeaderText" xml:space="preserve">
     <value>ImageSample</value>
   </data>
+  <data name="dataGridViewImageColumn4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dataGridViewImageColumn4.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
   <data name="dataGridViewRichTextBoxColumn2.HeaderText" xml:space="preserve">
     <value>ColumnTitle</value>
   </data>
+  <data name="dataGridViewRichTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dataGridViewRichTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
   <data name="dataGridViewImageColumn5.HeaderText" xml:space="preserve">
     <value>VisualWeight</value>
+  </data>
+  <data name="dataGridViewImageColumn5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dataGridViewImageColumn5.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
 </root>

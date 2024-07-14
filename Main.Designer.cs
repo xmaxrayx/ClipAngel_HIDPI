@@ -547,6 +547,7 @@ namespace ClipAngel
             resources.ApplyResources(this.toolStripBottom, "toolStripBottom");
             this.toolStripBottom.CanOverflow = false;
             this.toolStripBottom.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStripBottom.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStripBottom.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonClearFilter,
             this.toolStripSearchOptions,
@@ -725,6 +726,7 @@ namespace ClipAngel
             this.dataGridView.AllowUserToResizeRows = false;
             resources.ApplyResources(this.dataGridView, "dataGridView");
             this.dataGridView.AutoGenerateColumns = false;
+            this.dataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
@@ -870,6 +872,7 @@ namespace ClipAngel
             // 
             // contextMenuStripDataGrid
             // 
+            this.contextMenuStripDataGrid.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripDataGrid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
@@ -1016,9 +1019,11 @@ namespace ClipAngel
             this.urlTextBox.TabStop = false;
             this.toolTipDynamic.SetToolTip(this.urlTextBox, resources.GetString("urlTextBox.ToolTip"));
             this.urlTextBox.Click += new System.EventHandler(this.textBoxUrl_Click);
+            this.urlTextBox.TextChanged += new System.EventHandler(this.urlTextBox_TextChanged);
             // 
             // contextMenuUrl
             // 
+            this.contextMenuUrl.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuUrl.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.contextMenuUrlOpenLink,
             this.toolStripUrlCopyAll});
@@ -1054,6 +1059,7 @@ namespace ClipAngel
             // 
             // contextMenuStripRtf
             // 
+            this.contextMenuStripRtf.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripRtf.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rtfMenuItemOpenLink,
             this.copyToolStripMenuItem,
@@ -1113,6 +1119,7 @@ namespace ClipAngel
             // 
             // contextMenuStripHtml
             // 
+            this.contextMenuStripHtml.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripHtml.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.htmlMenuItemOpenLink,
             this.htmlMenuItemCopy,
@@ -1189,6 +1196,7 @@ namespace ClipAngel
             // 
             // contextMenuPictureBox
             // 
+            this.contextMenuPictureBox.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuPictureBox.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.originalSizeToolStripMenuItem,
             this.fitFromInsideToolStripMenuItem});
@@ -1210,6 +1218,7 @@ namespace ClipAngel
             // statusStrip
             // 
             resources.ApplyResources(this.statusStrip, "statusStrip");
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stripLabelFiltered,
             this.stripLabelPosition,
@@ -1269,6 +1278,7 @@ namespace ClipAngel
             // 
             // contextMenuStripApplication
             // 
+            this.contextMenuStripApplication.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripApplication.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copyFullFilenameToolStripMenuItem,
             this.toolStripApplicationCopyAll});
@@ -1299,6 +1309,7 @@ namespace ClipAngel
             // 
             // contextMenuWindowTitle
             // 
+            this.contextMenuWindowTitle.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuWindowTitle.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripWindowTitleCopyAll});
             this.contextMenuWindowTitle.Name = "contextMenuWindowTitle";
@@ -1312,11 +1323,14 @@ namespace ClipAngel
             // 
             // dataGridViewTextBoxColumn2
             // 
+            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // MainMenu
             // 
             this.MainMenu.BackColor = System.Drawing.SystemColors.Menu;
+            this.MainMenu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.MainMenu.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem1,
             this.listToolStripMenuItem,
@@ -1964,6 +1978,7 @@ namespace ClipAngel
             // 
             // contextMenuStripNotifyIcon
             // 
+            this.contextMenuStripNotifyIcon.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripNotifyIcon.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openWindowToolStripMenuItem,
             this.openLastClipsToolStripMenuItem,
@@ -2024,6 +2039,7 @@ namespace ClipAngel
             // toolStripTop
             // 
             resources.ApplyResources(this.toolStripTop, "toolStripTop");
+            this.toolStripTop.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStripTop.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonTextFormatting,
             this.toolStripButtonWordWrap,

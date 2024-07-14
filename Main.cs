@@ -8041,6 +8041,11 @@ namespace ClipAngel
         {
 
         }
+
+        private void urlTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
